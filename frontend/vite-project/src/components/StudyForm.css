@@ -1,0 +1,154 @@
+.study-form {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+body.dark .study-form {
+  background: #1e293b;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+body.dark .form-group label {
+  color: #f1f5f9;
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  background: #f9fafb;
+  color: #111827;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+}
+
+body.dark .form-group input[type="text"] {
+  border-color: #334155;
+  background: #0f172a;
+  color: #f1f5f9;
+}
+
+.form-group input[type="text"]:focus {
+  outline: none;
+  border-color: #646cff;
+}
+
+body.dark .form-group input[type="text"]:focus {
+  border-color: #818cf8;
+}
+
+.form-group input[type="text"]:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-options {
+  margin-bottom: 1.5rem;
+}
+
+.toggle-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.toggle-switch input[type="checkbox"] {
+  display: none;
+}
+
+.toggle-slider {
+  position: relative;
+  width: 50px;
+  height: 26px;
+  background: #e5e7eb;
+  border-radius: 13px;
+  transition: background 0.3s;
+}
+
+body.dark .toggle-slider {
+  background: #334155;
+}
+
+.toggle-slider::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  top: 3px;
+  left: 3px;
+  transition: transform 0.3s;
+}
+
+.toggle-switch input[type="checkbox"]:checked + .toggle-slider {
+  background: #646cff;
+}
+
+body.dark .toggle-switch input[type="checkbox"]:checked + .toggle-slider {
+  background: #818cf8;
+}
+
+.toggle-switch input[type="checkbox"]:checked + .toggle-slider::before {
+  transform: translateX(24px);
+}
+
+.toggle-label {
+  font-weight: 500;
+  color: #111827;
+}
+
+body.dark .toggle-label {
+  color: #f1f5f9;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 0.875rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background: #646cff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+body.dark .submit-btn {
+  background: #818cf8;
+}
+
+.submit-btn:hover:not(:disabled) {
+  background: #535bf2;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(100, 108, 255, 0.4);
+}
+
+body.dark .submit-btn:hover:not(:disabled) {
+  background: #a5b4fc;
+  box-shadow: 0 4px 12px rgba(129, 140, 248, 0.4);
+}
+
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
