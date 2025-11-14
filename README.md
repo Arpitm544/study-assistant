@@ -1,7 +1,3 @@
-Here’s your README rewritten clearly, naturally, and in a more human, conversational tone — while still looking professional and polished for a technical assessment.
-
-⸻
-
 🧠 Smart Study Assistant
 
 A lightweight AI-powered study tool that turns any topic into quick study notes, quizzes, and tips.
@@ -35,7 +31,7 @@ It also includes light/dark themes, loading states, and error handling.
 	•	🕒 History tracking (localStorage)
 	•	⚡ Fast and simple end-to-end workflow
 
-⸻
+
 
 🧰 Requirements
 	•	Node.js 18+
@@ -114,7 +110,6 @@ frontend/
       App.jsx
 
 
-⸻
 
 🧪 Development Commands
 
@@ -130,7 +125,6 @@ npm run preview
 npm run lint
 
 
-⸻
 
 🛠 Troubleshooting Tips
 	•	CORS issues → Double-check VITE_API_URL (include http://).
@@ -140,7 +134,16 @@ npm run lint
 
 
  🚀 Deployment Links
+ 
 	•	Frontend (Vercel): https://study-assistant-vb87.vercel.app/
+	
 	•	Backend (Vercel): https://study-assistant-sigma.vercel.app/
+	
+
+Frontende Image
+
+<img width="1470" height="923" alt="Screenshot 2025-11-14 at 2 01 23 PM" src="https://github.com/user-attachments/assets/8bd09b9f-c445-45a6-9277-d2b93345585a" />
+
+<img width="1470" height="923" alt="Screenshot 2025-11-14 at 2 01 36 PM" src="https://github.com/user-attachments/assets/67360f18-152b-4425-90fe-3020bb93bfb7" />
 
   
